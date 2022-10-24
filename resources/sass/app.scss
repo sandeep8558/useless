@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~tailwindcss/dist/tailwind.css';
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+// sidebar
+@import 'sidebar';
+
+// styles
+@import 'styles';
+
+// image
+@import 'image';
+
+// website custom styles
+@import 'vainkho';

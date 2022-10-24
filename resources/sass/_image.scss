@@ -1,0 +1,185 @@
+/* Images Styling Start */
+.image {
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+}
+.image img.image-contain {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+}
+.image img.image-cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.image-s {
+    padding-bottom: 100%;
+}
+.image-p {
+    padding-bottom: 150%;
+}
+.image-l {
+    padding-bottom: 60%;
+}
+.image-hd {
+    padding-bottom: 50%;
+}
+.image-header {
+    padding-bottom: 35%;
+}
+.image-banner-1 {
+    padding-bottom: 25vh;
+}
+.image-banner-2 {
+    padding-bottom: 50vh;
+}
+.image-banner-3 {
+    padding-bottom: 75vh;
+}
+.image-banner-4 {
+    padding-bottom: 100vh;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .image-s-sm {
+        padding-bottom: 100%;
+    }
+    .image-p-sm {
+        padding-bottom: 150%;
+    }
+    .image-l-sm {
+        padding-bottom: 60%;
+    }
+    .image-hd-sm {
+        padding-bottom: 50%;
+    }
+    .image-header-sm {
+        padding-bottom: 35%;
+    }
+    .image-banner-1-sm {
+        padding-bottom: 25vh;
+    }
+    .image-banner-2-sm {
+        padding-bottom: 50vh;
+    }
+    .image-banner-3-sm {
+        padding-bottom: 75vh;
+    }
+    .image-banner-4-sm {
+        padding-bottom: 100vh;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .image-s-md {
+        padding-bottom: 100%;
+    }
+    .image-p-md {
+        padding-bottom: 150%;
+    }
+    .image-l-md {
+        padding-bottom: 60%;
+    }
+    .image-hd-md {
+        padding-bottom: 50%;
+    }
+    .image-header-md {
+        padding-bottom: 35%;
+    }
+    .image-banner-1-md {
+        padding-bottom: 25vh;
+    }
+    .image-banner-2-md {
+        padding-bottom: 50vh;
+    }
+    .image-banner-3-md {
+        padding-bottom: 75vh;
+    }
+    .image-banner-4-md {
+        padding-bottom: 100vh;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .image-s-lg {
+        padding-bottom: 100%;
+    }
+    .image-p-lg {
+        padding-bottom: 150%;
+    }
+    .image-l-lg {
+        padding-bottom: 60%;
+    }
+    .image-hd-lg {
+        padding-bottom: 50%;
+    }
+    .image-header-lg {
+        padding-bottom: 35%;
+    }
+    .image-banner-1-lg {
+        padding-bottom: 25vh;
+    }
+    .image-banner-2-lg {
+        padding-bottom: 50vh;
+    }
+    .image-banner-3-lg {
+        padding-bottom: 75vh;
+    }
+    .image-banner-4-lg {
+        padding-bottom: 100vh;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .image-s-xl {
+        padding-bottom: 100%;
+    }
+    .image-p-xl {
+        padding-bottom: 150%;
+    }
+    .image-l-xl {
+        padding-bottom: 60%;
+    }
+    .image-hd-xl {
+        padding-bottom: 50%;
+    }
+    .image-header-xl {
+        padding-bottom: 35%;
+    }
+    .image-banner-1-xl {
+        padding-bottom: 25vh;
+    }
+    .image-banner-2-xl {
+        padding-bottom: 50vh;
+    }
+    .image-banner-3-xl {
+        padding-bottom: 75vh;
+    }
+    .image-banner-4-xl {
+        padding-bottom: 100vh;
+    }
+}
+/* Images Styling End */
+
+/*
+<div class="container">
+    <div class="image image-s image-hd-md image-header-lg">
+        <img class="image-cover" src="/images/demo.jpg" alt="Demo Image">
+    </div>
+</div>
+*/

@@ -1,0 +1,229 @@
+/* Texts Styles Start */
+.title {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+.title-sm {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+.title-md {
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px;
+}
+.title-lg {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+.title-xl {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.para {
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+.para-sm {
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+}
+.para-md {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+.para-lg {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+.para-xl {
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .title {
+        font-size: 16px;
+    }
+    .title-sm {
+        font-size: 17.5px;
+    }
+    .title-md {
+        font-size: 18.5px;
+    }
+    .title-lg {
+        font-size: 20px;
+    }
+    .title-xl {
+        font-size: 22.5px;
+    }
+
+    .para {
+        font-size: 13px;
+    }
+    .para-sm {
+        font-size: 14px;
+    }
+    .para-md {
+        font-size: 15px;
+    }
+    .para-lg {
+        font-size: 16px;
+    }
+    .para-xl {
+        font-size: 17px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .title {
+        font-size: 17px;
+    }
+    .title-sm {
+        font-size: 19px;
+    }
+    .title-md {
+        font-size: 20px;
+    }
+    .title-lg {
+        font-size: 22px;
+    }
+    .title-xl {
+        font-size: 25px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+    .para-sm {
+        font-size: 15px;
+    }
+    .para-md {
+        font-size: 16px;
+    }
+    .para-lg {
+        font-size: 17px;
+    }
+    .para-xl {
+        font-size: 18px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .title {
+        font-size: 18px;
+    }
+    .title-sm {
+        font-size: 20.5px;
+    }
+    .title-md {
+        font-size: 21.5px;
+    }
+    .title-lg {
+        font-size: 24px;
+    }
+    .title-xl {
+        font-size: 27.5px;
+    }
+
+    .para {
+        font-size: 15px;
+    }
+    .para-sm {
+        font-size: 16px;
+    }
+    .para-md {
+        font-size: 17px;
+    }
+    .para-lg {
+        font-size: 18px;
+    }
+    .para-xl {
+        font-size: 19px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .title {
+        font-size: 19px;
+    }
+    .title-sm {
+        font-size: 22px;
+    }
+    .title-md {
+        font-size: 23px;
+    }
+    .title-lg {
+        font-size: 26px;
+    }
+    .title-xl {
+        font-size: 29px;
+    }
+
+    .para {
+        font-size: 16px;
+    }
+    .para-sm {
+        font-size: 17px;
+    }
+    .para-md {
+        font-size: 18px;
+    }
+    .para-lg {
+        font-size: 19px;
+    }
+    .para-xl {
+        font-size: 20px;
+    }
+}
+/* Texts Styles End */
+
+.one-line {
+    max-height: 1.2em;
+    -webkit-line-clamp: 1;
+}
+
+.two-line {
+    max-height: 2.4em;
+    -webkit-line-clamp: 2;
+}
+
+.three-line {
+    max-height: 3.6em;
+    -webkit-line-clamp: 3;
+}
+
+.four-line {
+    max-height: 4.8em;
+    -webkit-line-clamp: 4;
+}
+
+.one-line,
+.two-line,
+.three-line,
+.four-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.2em;
+    -webkit-box-orient: vertical;
+}
